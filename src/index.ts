@@ -1,5 +1,5 @@
 import './styles.css';
-// import img from './assets/foto2.png';
-import Xmen from './classes/xmen';
+import { AppRouter } from './app/router';
+import { routes } from './app/routes';
 
-const xmen = new Xmen('Xavier', 'Javier');
+const router = new AppRouter(routes);
